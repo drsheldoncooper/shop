@@ -1,0 +1,14 @@
+body {
+    margin: 3% 10%;
+    width: 80%
+}
+
+p {
+    max-width: 800px;
+}
+
+main {
+    margin-bottom: 60px;
+    position: relative;
+}
+

@@ -1,0 +1,10 @@
+.catalog__product {
+    width: 220px;
+    display: inline-block;
+}
+
+.catalog__product img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
