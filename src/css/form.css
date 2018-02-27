@@ -8,11 +8,14 @@ form {
 label {
     display: block;
     margin-bottom: 5px;
+    margin-top: 8px;
 }
 
 textarea, input {
     width: 250px;
     resize: none;
+    color: #484343;
+    font-size: 16px;
 }
 
 input[type="submit"] {

@@ -1,6 +1,11 @@
+* {
+    font-family: sans-serif;
+}
+
 body {
     margin: 3% 10%;
-    width: 80%
+    width: 80%;
+    background-color: #f8f8f8;
 }
 
 p {

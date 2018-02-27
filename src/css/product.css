@@ -11,3 +11,37 @@
 .product__img {
     max-width: 400px;
 }
+
+.product__h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.product__desc {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.product__details {
+    color: #484343;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.product__list {
+    color: #484344;
+    font-size: 15px;
+    line-height: 20px;
+    list-style-image: url('../img/marker.png');
+}
+
+.product__list--normal {
+    list-style-image: none;
+    list-style-type: disc;
+}
