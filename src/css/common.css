@@ -2,9 +2,12 @@
     font-family: sans-serif;
 }
 
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    margin: 3% 10%;
-    width: 80%;
     background-color: #f8f8f8;
 }
 
@@ -16,4 +19,10 @@ main {
     margin-bottom: 60px;
     position: relative;
 }
+
+.container {
+    width: 80%;
+    margin: 3% auto;
+}
+
 

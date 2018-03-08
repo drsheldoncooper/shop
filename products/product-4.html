@@ -6,41 +6,58 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-<header>
-    <nav class="nav">
-        <ul>
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="../catalog.html">Каталог</a></li>
-            <li><a href="../contacts.html">Контакты</a></li>
-        </ul>
-    </nav>
-    <hr>
-</header>
-<main>
-    <h1>Гайтан Rico SLA11</h1>
-    <h3 class="product__h3">Описание товара</h3>
-    <p class="product__desc">Ремень для саксофона баритон и тенор (гайтан) <strong>Rico SLA11</strong>.</p>
-    <h3 class="product__h3">Характеристики товара</h3>
-    <p>
-        <ul class="product__list">
-            <li>Крючок особой формы, обеспечивающий хорошую фиксацию на саксофоне</li>
-            <li>Обеспечивает удобную и точную регулировку длины</li>
-            <li><strong>Рисунок:</strong> Industrial</li>
-            <li><strong>Производство:</strong> США</li>
-        </ul>
-    </p>
-    <h3 class="product__h3">Подробное описание товара</h3>
-    <p class="product__details">Гайтан известной фирмы Rico из черного нейлона для тенор и баритон саксофонов, имеет специально разработанный
-        крючок, позволяющий легко крепить инструмент и удерживающий его лучше, чем обычные крючки.
+    <header>
+        <nav class="nav">
+            <div class="blur">
+                <ul>
+                    <li class="logo"></li>
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="../catalog.html">Каталог</a></li>
+                    <li><a href="../contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="product container">
+        <h1>Гайтан Rico SLA11</h1>
+        <h3 class="product__h3">Описание товара</h3>
+        <a class="product__img--float" href="../src/img/sla11b.jpg" target="_blank">
+            <img src="../src/img/sla11b.jpg" class="product__img" alt="Гайтан Rico SLA11">
+        </a>
+        <p class="product__desc">Ремень для саксофона баритон и тенор (гайтан) <strong>Rico SLA11</strong>.</p>
+        <bottom class="product__buy">Купить</bottom>
+        <div class="clearfix"></div>
+        <h3 class="product__h3">Характеристики товара</h3>
+        <p>
+            <ul class="product__list">
+                <li>Крючок особой формы, обеспечивающий хорошую фиксацию на саксофоне</li>
+                <li>Обеспечивает удобную и точную регулировку длины</li>
+                <li><strong>Рисунок:</strong> Industrial</li>
+                <li><strong>Производство:</strong> США</li>
+            </ul>
+        </p>
+        <table class="product__tabl">
+            <tr>
+                <td rowspan="2">Номер</td>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+            </tr>
+            <tr>
+                <td>1,5</td>
+                <td>2,5</td>
+            </tr>
+        </table>
+        <h3 class="product__h3">Подробное описание товара</h3>
+        <p class="product__details">Гайтан известной фирмы Rico из черного нейлона для тенор и баритон саксофонов, имеет специально разработанный
+            крючок, позволяющий легко крепить инструмент и удерживающий его лучше, чем обычные крючки.
 
-        Все ремни Rico для саксофона оснащены уникальным легкоскользящим регулятором, позволяющим музыканту
-        быстро и с удобством отрегулировать длину ремня. В поддержке ремня используется шнур, делающий его
-        гораздо менее громоздкими, чем обычные ремни других производителей.</p>
-    <a href="../src/img/sla11b.jpg" target="_blank"><img src="../src/img/sla11b.jpg" class="product__img" alt="Гайтан Rico SLA11"></a>
-</main>
-<hr>
-<footer>
-    <p>&copy;Все права защищены</p>
-</footer>
+            Все ремни Rico для саксофона оснащены уникальным легкоскользящим регулятором, позволяющим музыканту
+            быстро и с удобством отрегулировать длину ремня. В поддержке ремня используется шнур, делающий его
+            гораздо менее громоздкими, чем обычные ремни других производителей.</p>
+    </main>
+    <footer class="footer">
+        <p>&copy;Все права защищены</p>
+    </footer>
 </body>
 </html>

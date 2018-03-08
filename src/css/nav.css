@@ -1,22 +1,44 @@
+.nav {
+    background: url(../img/sax.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0 56%;
+    height: 110px;
+    text-align: right;
+}
+
 .nav ul {
-    padding: 0;
+    padding: 40px 10% 0 0;
+    margin-top: 0;
+}
+
+.blur {
+    height: 100%;
+    background: linear-gradient(45deg, transparent, white 64%);
 }
 
 .nav li {
     display: inline-block;
 }
 
-.nav li:first-child::before {
-    content: '';
+.logo {
     background-image: url('../img/logo.png');
     background-size: contain;
     display: inline-block;
     width: 30px;
     height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #fff;
+    top: 9px;
+    position: relative;
 }
 
 a {
     color: midnightblue;
     font-size: 18px;
     font-family: Arial, sans-serif;
+}
+
+.nav a:hover {
+    color: darkred;
 }

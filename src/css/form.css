@@ -18,6 +18,16 @@ textarea, input {
     font-size: 16px;
 }
 
+#email:focus {
+    color: #464646;
+    background-color: #F4F4F4;
+    text-transform: none;
+}
+
+input, textarea {
+    text-transform: capitalize;
+}
+
 input[type="submit"] {
     display: inline-block;
     width: auto;

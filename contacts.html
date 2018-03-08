@@ -6,55 +6,56 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-    <nav class="nav">
-        <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="#">Контакты</a></li>
-        </ul>
-    </nav>
-    <hr>
-</header>
-<main>
-    <h1>Напишите нам</h1>
-    <form action="http://91.201.41.52/l/shop/form" method="post">
-        <fieldset>
-            <legend>Личные данные</legend>
-            <label for="name">
-                Ваше имя:</label>
-            <input type="text" id="name" placeholder="Имя" required>
-            <br>
-            <label for="email">
-                Ваш Email:</label>
-            <input type="text" id="email" placeholder="Email" required>
-            <br>
-            <label for="theme">
-                Тема: </label>
-            <input type="text" id="theme" placeholder="Тема" required>
-            <label for="text">Дополнительная информация:</label>
-                <textarea type="text" id="text" placeholder="Текстовое поле" rows="5" required></textarea>
-            <br>
-            <input type="submit" value="Отправить">
-            <input type="reset" value="Очистить">
-        </fieldset>
-    </form>
-    <h2>Адрес</h2>
-        <ul>
-            <li><strong>Контактный номер телефона интернет-магазина:</strong> 8 (496) 777-777</li>
-            <li><strong>Адрес:</strong> ул. Моховая, 7, Москва</li>
-            <li><strong>Email:</strong> bird@gmail.com</li>
-            <li><strong>Время работы:</strong></li>
+    <header>
+        <nav class="nav">
+            <div class="blur">
                 <ul>
-                    <li><i>Пн-Сб:</i> 10.00 - 20.00</li>
-                    <li><i>Вс:</i> 10.00 - 18.00</li>
+                    <li class="logo"></li>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="#">Контакты</a></li>
                 </ul>
-        </ul>
-    <iframe src="https://yandex.ru/map-widget/v1/-/CBQ4yHB6KC" width="560" height="400" frameborder="0"></iframe>
-</main>
-<footer class="footer--fixed">
-    <hr>
-    <p>&copy;Все права защищены</p>
-</footer>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>Напишите нам</h1>
+        <form action="http://91.201.41.52/l/shop/form/" method="post">
+            <fieldset>
+                <legend>Личные данные</legend>
+                <label for="name">
+                    Ваше имя:</label>
+                <input type="text" id="name" name="name" placeholder="Имя" required>
+                <br>
+                <label for="email">
+                    Ваш Email:</label>
+                <input type="text" id="email" name="email" placeholder="Email" required>
+                <br>
+                <label for="theme">
+                    Тема: </label>
+                <input type="text" id="theme" name="theme" placeholder="Тема" required>
+                <label for="text">Дополнительная информация:</label>
+                    <textarea id="text" name="text" placeholder="Текстовое поле" rows="5" required></textarea>
+                <br>
+                <input type="submit" value="Отправить">
+                <input type="reset" value="Очистить">
+            </fieldset>
+        </form>
+        <h2>Адрес</h2>
+            <ul>
+                <li><strong>Контактный номер телефона интернет-магазина:</strong> 8 (496) 777-777</li>
+                <li><strong>Адрес:</strong> ул. Моховая, 7, Москва</li>
+                <li><strong>Email:</strong> bird@gmail.com</li>
+                <li><strong>Время работы:</strong></li>
+                    <ul>
+                        <li><i>Пн-Сб:</i> 10.00 - 20.00</li>
+                        <li><i>Вс:</i> 10.00 - 18.00</li>
+                    </ul>
+            </ul>
+        <iframe src="https://yandex.ru/map-widget/v1/-/CBQ4yHB6KC" width="100%" height="374" frameborder="0"></iframe>
+    </main>
+    <footer class="footer">
+        <p>&copy;Все права защищены</p>
+    </footer>
 </body>
 </html>

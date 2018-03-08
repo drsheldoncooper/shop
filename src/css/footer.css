@@ -1,6 +1,19 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #595959;
+    color: white;
+    height: 60px;
+    border-top: 4px solid #cccccc;
+}
+
 .footer--fixed {
     position: fixed;
-    bottom: 0;
-    width: 80%;
-    background-color: #f8f8f8;
+}
+
+.footer p {
+    text-align: right;
+    padding-right: 10%;
+    max-width: 100%;
 }
